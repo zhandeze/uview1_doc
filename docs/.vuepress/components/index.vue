@@ -10,7 +10,7 @@
 						uView UI，是uni-app生态最优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 					</h2>
 					<div class="banner-img">
-						<img src="/index/banner_1920x1080.png" />
+						<img :src="$withBase('/index/banner_1920x1080.png')" />
 					</div>
 				</div>
 			</div>
@@ -19,7 +19,7 @@
 				<ul class="row">
 					<li class="col-md-3 col-sm-12 ">
 						<div class="card-item">
-							<img src="/index/guide.png" />
+							<img :src="$withBase('/index/guide.png')" />
 							<h3>
 								指南
 							</h3>
@@ -30,7 +30,7 @@
 					</li>
 					<li class="col-md-3 col-sm-12">
 						<div class="card-item">
-							<img src="/index/components.png" />
+							<img :src="$withBase('/index/components.png')" />
 							<h3>
 								组件
 							</h3>
@@ -41,7 +41,7 @@
 					</li>
 					<li class="col-md-3 col-sm-12">
 						<div class="card-item">
-							<img src="/index/js.png" />
+							<img :src="$withBase('/index/js.png')" />
 							<h3>
 								工具库
 							</h3>
@@ -52,7 +52,7 @@
 					</li>
 					<li class="col-md-3 col-sm-12">
 						<div class="card-item">
-							<img src="/index/layout.png" />
+							<img :src="$withBase('/index/layout.png')" />
 							<h3>
 								布局
 							</h3>
@@ -68,7 +68,7 @@
 				<ul class="row">
 					<li class="col-md-3 col-sm-6 col-xs-6">
 						<div class="card-item">
-							<img src="/index/android.png" />
+							<img :src="$withBase('/index/android.png')" />
 							<h3>
 								安卓
 							</h3>
@@ -77,7 +77,7 @@
 					</li>
 					<li class="col-md-3 col-sm-6 col-xs-6">
 						<div class="card-item">
-							<img src="/index/ios.png" />
+							<img :src="$withBase('/index/ios.png')" />
 							<h3>
 								Apple
 							</h3>
@@ -86,7 +86,7 @@
 					</li>
 					<li class="col-md-3 col-sm-6 col-xs-6">
 						<div class="card-item">
-							<img src="/index/weixin.png" />
+							<img :src="$withBase('/index/weixin.png')" />
 							<h3>
 								微信小程序
 							</h3>
@@ -95,7 +95,7 @@
 					</li>
 					<li class="col-md-3 col-sm-6 col-xs-6">
 						<div class="card-item">
-							<img src="/index/h5.png" />
+							<img :src="$withBase('/index/h5.png')" />
 							<h3>
 								H5
 							</h3>
@@ -106,7 +106,7 @@
 				<ul class="row">
 					<li class="col-md-3 col-sm-6 col-xs-6">
 						<div class="card-item">
-							<img src="/index/qq.png" />
+							<img :src="$withBase('/index/qq.png')" />
 							<h3>
 								QQ小程序
 							</h3>
@@ -115,7 +115,7 @@
 					</li>
 					<li class="col-md-3 col-sm-6 col-xs-6">
 						<div class="card-item">
-							<img src="/index/baidu.png" />
+							<img :src="$withBase('/index/baidu.png')" />
 							<h3>
 								百度小程序
 							</h3>
@@ -124,7 +124,7 @@
 					</li>
 					<li class="col-md-3 col-sm-6 col-xs-6">
 						<div class="card-item">
-							<img src="/index/alipay.png" />
+							<img :src="$withBase('/index/alipay.png')" />
 							<h3>
 								支付宝小程序
 							</h3>
@@ -133,7 +133,7 @@
 					</li>
 					<li class="col-md-3 col-sm-6 col-xs-6">
 						<div class="card-item">
-							<img src="/index/toutiao.png" />
+							<img :src="$withBase('/index/toutiao.png')" />
 							<h3>
 								头条小程序
 							</h3>

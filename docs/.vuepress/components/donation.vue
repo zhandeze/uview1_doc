@@ -8,12 +8,12 @@
       <div class="row">
         <div class="col-sm-3 col-md-3 col-xs-12 col-box">
           <div class="sponsor-type">
-            <img src="/common/wechat.png" />
+            <img :src="$withBase('/common/wechat.png')" />
           </div>
         </div>
         <div class="col-sm-3 col-md-3 col-xs-12 col-box col-sm-offset-1">
           <div class="sponsor-type">
-            <img src="/common/alipay.png" />
+            <img :src="$withBase('/common/alipay.png')" />
           </div>
         </div>
       </div>

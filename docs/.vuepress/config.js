@@ -12,6 +12,9 @@ module.exports = {
     const defaultConfig = {
       node: {
         global: true
+      },
+      output: {
+        publicPath: '/uview1_doc/'
       }
     }
 

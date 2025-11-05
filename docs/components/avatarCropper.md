@@ -32,7 +32,7 @@
   export default {
     data() {
       return {
-        avatar: "https://cdn.uviewui.com/uview/common/logo.png",
+        avatar: "https://zhandeze.github.io/uview1_doc/common/logo.png",
       };
     },
     created() {
