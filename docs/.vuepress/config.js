@@ -1,7 +1,7 @@
 module.exports = {
   title: 'uView - 多平台快速开发的UI框架 - uni-app UI框架', // 设置网站标题
   description: 'uView UI，是uni-app生态最优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水',
-  base: '/',
+  base: '/uview1_doc/',
   dest: 'dist',
   markdown: {
     //lineNumbers: true
@@ -19,7 +19,8 @@ module.exports = {
     if (isServer) {
       const newConfig = {
         output: {
-          filename: `assets/js/[name].${+new Date()}.[chunkhash].js`
+          filename: `assets/js/[name].${+new Date()}.[chunkhash].js`,
+          publicPath: '/uview1_doc/'
         }
       }
       // 修改客户端的 webpack 配置
@@ -41,7 +42,7 @@ module.exports = {
   ],
 
   themeConfig: {
-    baseUrl: 'https://api.uviewui.com',
+    baseUrl: 'https://zhandeze.github.io/uview1_doc/',
     search: true, // 是否显示顶部搜索框
     searchPlaceholder: '搜索文档关键字',
     sidebarDepth: 0,
